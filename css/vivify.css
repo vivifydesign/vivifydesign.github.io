@@ -178,6 +178,11 @@ header {
   */
   color: #222;
 }
+
+header p {
+  margin-top: 5%;
+}
+
 header .header-content {
   text-align: center;
   padding: 150px 0 50px;
