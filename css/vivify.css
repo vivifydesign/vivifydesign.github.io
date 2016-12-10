@@ -277,13 +277,14 @@ section.download .badges .badge-link img {
     font-size: 70px;
   }
 }
-section.features .section-heading {
+section.services .section-heading {
   margin-bottom: 100px;
 }
-section.features .section-heading h2 {
+section.services .section-heading h2 {
   margin-top: 0;
+  font-size: 60px;
 }
-section.features .section-heading p {
+section.services .section-heading p {
   margin-bottom: 0;
 }
 section.features .device-container,
@@ -312,6 +313,34 @@ section.features .feature-item i {
   background: linear-gradient(to right, #cdcfcb, #570782);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+section.services .feature-item i {
+  font-size: 80px;
+  /*background: -webkit-linear-gradient(to right, #cdcfcb, #570782);
+  background: linear-gradient(to right, #cdcfcb, #570782);*/
+  background: #444;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.4s;
+}
+section.services .feature-item i:hover {
+  font-size: 90px;
+  background: #570782;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+section.services .feature-item h3 {
+  color: #708221
+}
+section.services .feature-item p {
+  color: #3e3e3e
+}
+.feature-item{
+  /*background: rgba(160,160,160,0.1);*/
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  margin: 20px;
+  max-height: 224px;
 }
 @media (min-width: 992px) {
   section.features .device-container,
