@@ -28,4 +28,14 @@
         }
     })
 
+    var threshold = 200;
+
+    $(window).scroll(function() {
+        if ($(window).scrollTop() > threshold) {
+            $('#scroll-top').fadeIn('slow');
+        } else {
+            $('#scroll-top').fadeOut('slow');
+        }
+    });
+
 })(jQuery); // End of use strict
